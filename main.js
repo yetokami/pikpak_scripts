@@ -12,7 +12,7 @@ async function main() {
     });
 
     // 注册
-    let pikPak = new PikPak(`${name}@temp.com`, password, null, '自己的邀请码');
+    let pikPak = new PikPak(`${name}@temp.com`, password, null, '76901220');
     pikPak.authVerification()
         .then(() => pikPak.getVerificationCode())
         .then(() => pikPak.authVerificationVerify())
